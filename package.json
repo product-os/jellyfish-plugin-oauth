@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "@balena/jellyfish-environment": "^12.0.1",
-    "@balena/jellyfish-worker": "27.0.0-joshbwlng-whoami-53923e755f4c46aad91da2ec4c31691fd4c23ef9",
+    "@balena/jellyfish-worker": "27.0.0",
     "@ory/hydra-client": "^1.11.8",
     "qs": "^6.10.3"
   },
