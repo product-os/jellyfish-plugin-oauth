@@ -1,7 +1,7 @@
 {
   "name": "@balena/jellyfish-plugin-oauth",
   "description": "Jellyfish OAuth Plugin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-plugin-oauth.git"
@@ -61,6 +61,6 @@
     "qs": "^6.10.3"
   },
   "versionist": {
-    "publishedAt": "2022-05-16T09:13:50.415Z"
+    "publishedAt": "2022-05-16T11:04:16.447Z"
   }
 }

@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update worker to v27
+      hash: a01efb35f0ceee25b59e60cffa3584c393f1b4a1
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+  version: 1.0.0
+  title: "'Update worker to v27'"
+  date: 2022-05-16T11:04:16.389Z
+- commits:
     - subject: Initialize codebase
       hash: 72580783760ba894cadc8906d8047b1fb3b5367e
       body: ""
