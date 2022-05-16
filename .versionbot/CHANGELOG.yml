@@ -1,0 +1,14 @@
+- commits:
+    - subject: Initialize codebase
+      hash: 72580783760ba894cadc8906d8047b1fb3b5367e
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 0.1.0
+  title: "'Initialize codebase'"
+  date: 2022-05-16T09:13:50.372Z
