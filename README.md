@@ -1,32 +1,30 @@
-# Jellyfish Incidents Plugin
+# Jellyfish OAuth Plugin
 
-Provides the tools to manage outage incidents from within Jellyfish.
+Provides OAuth related contracts and Jellyfish auth integration.
 
 # Usage
 
 Below is an example how to use this library:
 
 ```typescript
-import { channelsPlugin } from '@balena/jellyfish-plugin-channels';
 import { defaultPlugin } from '@balena/jellyfish-plugin-default';
-import { incidentsPlugin } from '@balena/jellyfish-plugin-incidents';
+import { oauthPlugin } from '@balena/jellyfish-plugin-oauth';
 import { PluginManager } from '@balena/jellyfish-worker';
 
-// Load cards from this plugin
+// Load contracts from this plugin
 const pluginManager = new PluginManager([
 	defaultPlugin(),
-	channelsPlugin(),
-	incidentsPlugin(),
+	oauthPlugin(),
 ]);
-const cards = pluginManager.getCards();
-console.dir(cards);
+const contracts = pluginManager.getCards();
+console.dir(contracts);
 ```
 
 # Documentation
 
-[![Publish Documentation](https://github.com/product-os/jellyfish-plugin-incidents/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/product-os/jellyfish-plugin-incidents/actions/workflows/publish-docs.yml)
+[![Publish Documentation](https://github.com/product-os/jellyfish-plugin-oauth/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/product-os/jellyfish-plugin-oauth/actions/workflows/publish-docs.yml)
 
-Visit the website for complete documentation: https://product-os.github.io/jellyfish-plugin-incidents
+Visit the website for complete documentation: https://product-os.github.io/jellyfish-plugin-oauth
 
 # Testing
 
