@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update readme contents
+      hash: 6c63880ab5a2b1a92d5c7062d2500b7993fd5689
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 0.1.2
+  title: "'Update readme contents'"
+  date: 2022-05-16T11:17:01.366Z
+- commits:
     - subject: Update jellyfish-worker to 27.0.0
       hash: b9d70cb28ae8625b2bd3117eeea458beaa11457d
       body: ""
