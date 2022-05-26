@@ -10,7 +10,7 @@ if (process.env.MOCK_TLS_TERMINATION) {
 
 export const hydraAdmin = new AdminApi(
 	new Configuration({
-		basePath: environment.hydra.adminBaseUrl,
+		basePath: environment.hydra.adminHost,
 		baseOptions,
 	}),
 );
