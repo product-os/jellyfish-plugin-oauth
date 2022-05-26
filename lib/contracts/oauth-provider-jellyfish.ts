@@ -7,13 +7,11 @@ export const oauthProviderJellyfish: ContractDefinition = {
 	name: 'Jellyfish oauth provider',
 	slug: 'oauth-provider-jellyfish',
 	data: {
-		authorizeUrl: `${
-			environment.hydra.publicBaseUrl
-		}/oauth2/auth?${qs.stringify({
+		authorizeUrl: `${environment.hydra.publicHost}/oauth2/auth?${qs.stringify({
 			client_id: environment.integration.jellyfish.appId,
 			response_type: 'code',
 		})}`,
-		tokenUrl: `${environment.hydra.publicBaseUrl}/oauth2/token`,
+		tokenUrl: `https://hydra.${process.env.DNS_TLD}/oauth2/token`,
 		clientId: environment.integration.jellyfish.appId,
 		clientSecret: environment.integration.jellyfish.appSecret,
 		integration: 'jellyfish',

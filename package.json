@@ -55,8 +55,8 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
-    "@balena/jellyfish-environment": "^12.0.1",
-    "@balena/jellyfish-worker": "^27.0.0",
+    "@balena/jellyfish-environment": "^12.0.3",
+    "@balena/jellyfish-worker": "^27.0.3",
     "@ory/hydra-client": "^1.11.8",
     "qs": "^6.10.3"
   },
