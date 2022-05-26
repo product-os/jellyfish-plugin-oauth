@@ -1,4 +1,16 @@
 - commits:
+    - subject: Fix jellyfish provider contract properties
+      hash: 690a5a0df4bff6349fe85fa4ec4e467d32a1ee56
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: karaxuna
+      nested: []
+  version: 0.1.3
+  title: "'Fix jellyfish provider contract properties'"
+  date: 2022-05-26T06:07:23.149Z
+- commits:
     - subject: Update readme contents
       hash: 6c63880ab5a2b1a92d5c7062d2500b7993fd5689
       body: ""
