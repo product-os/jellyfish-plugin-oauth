@@ -2,6 +2,7 @@ import type { PluginDefinition } from '@balena/jellyfish-worker';
 import { actions } from './actions';
 import { contracts } from './contracts';
 import { integrations } from './integrations';
+export { hydraAdmin } from './actions/action-sync-oauth-client';
 
 // tslint:disable-next-line: no-var-requires
 const { version } = require('../package.json');
