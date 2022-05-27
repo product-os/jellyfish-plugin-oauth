@@ -1,4 +1,18 @@
 - commits:
+    - subject: Export hydraAdmin function
+      hash: de9c96259b2d0cb1235c703e153cca9ea7cd529b
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 0.2.0
+  title: "'Export hydraAdmin function'"
+  date: 2022-05-27T03:36:07.460Z
+- commits:
     - subject: Fix jellyfish provider contract properties
       hash: 690a5a0df4bff6349fe85fa4ec4e467d32a1ee56
       body: ""
