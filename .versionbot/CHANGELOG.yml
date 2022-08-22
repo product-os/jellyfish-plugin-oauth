@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update dependencies
+      hash: 5b6e6c1b7bc39bef819578560c6293537e291551
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+  version: 1.0.0
+  title: "'Update dependencies'"
+  date: 2022-08-22T21:02:12.637Z
+- commits:
     - subject: Export hydraAdmin function
       hash: de9c96259b2d0cb1235c703e153cca9ea7cd529b
       body: ""

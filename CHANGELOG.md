@@ -4,6 +4,10 @@
 
 ## 0.1.1 - 2022-05-16
 
+## 1.0.0 - 2022-08-22
+
+* Update dependencies [karaxuna]
+
 ## 0.2.0 - 2022-05-27
 
 * Export hydraAdmin function [Josh Bowling]
